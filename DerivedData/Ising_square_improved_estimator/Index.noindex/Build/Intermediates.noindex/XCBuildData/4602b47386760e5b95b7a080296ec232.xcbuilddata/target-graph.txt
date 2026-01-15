@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Ising_square_improved_estimator' in project 'Ising_square_improved_estimator' (no dependencies)
