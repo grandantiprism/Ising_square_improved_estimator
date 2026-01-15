@@ -189,6 +189,67 @@
 			<key>uniqueIdentifier</key>
 			<string>9D811BE7-BE5F-4727-A790-4887043EC2F9</string>
 		</dict>
+		<key>B98A9B3F-6783-4F1B-AB57-E375DE5E020D</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4DF2BA89-1044-4435-BA4D-D856C6FAF718</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-Ising_square_improved_estimator-2026.01.15_15-13-43-+0900.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Ising_square_improved_estimator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Ising_square_improved_estimator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Ising_square_improved_estimator</string>
+			<key>timeStartedRecording</key>
+			<real>790150423.10404301</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run Ising_square_improved_estimator</string>
+			<key>uniqueIdentifier</key>
+			<string>B98A9B3F-6783-4F1B-AB57-E375DE5E020D</string>
+		</dict>
 		<key>E9130752-7610-4E0E-B030-A986C8B7B79A</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
