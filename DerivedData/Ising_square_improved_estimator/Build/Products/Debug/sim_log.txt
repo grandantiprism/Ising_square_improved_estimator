@@ -1,1 +1,2 @@
 L=16, beta_min=0.4, beta_max=0.48, beta_num=20, n_measure=2000, total_time=2.49s
+L=16, beta_min=0.4, beta_max=0.48, beta_num=20, n_measure=2000, total_time=2.49s

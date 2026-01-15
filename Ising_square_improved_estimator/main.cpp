@@ -124,7 +124,7 @@ int main() {
         double abs_m = sum_abs_m / conf.n_measure;
         double m2_imp = sum_s / (conf.n_measure * total_sites);
         double m4_naive = sum_m4 / conf.n_measure;
-        double binder = 1.0 - (m4_naive / (3.0 * m2_imp * m2_imp));
+        double binder = m4_naive / (m2_imp * m2_imp);
 
         // CSV出力
         ofs_res << fixed << setprecision(8)
