@@ -14,7 +14,7 @@ using namespace std;
 // シミュレーションパラメータの設定
 // ==========================================
 struct Config {
-    const int L = 128;              // 格子の一辺の長さ
+    const int L = 32;              // 格子の一辺の長さ
     const double beta_min = 0.42;  // 最小逆温度
     const double beta_max = 0.46;  // 最大逆温度
     const int beta_num = 20;       // betaの分割数
@@ -89,7 +89,7 @@ int main() {
     Config conf;
     int total_sites = conf.L * conf.L;
 
-    string res_filename = "result_L" + to_string(conf.L) + ".csv";
+    string res_filename = "ising_square_L" + to_string(conf.L) + ".csv";
     string log_filename = "sim_log.txt";
 
     ofstream ofs_res(res_filename);
