@@ -14,13 +14,13 @@ using namespace std;
 // シミュレーションパラメータの設定
 // ==========================================
 struct Config {
-    const int L = 16;              // 格子の一辺の長さ
-    const double beta_min = 0.40;  // 最小逆温度
-    const double beta_max = 0.48;  // 最大逆温度
+    const int L = 128;              // 格子の一辺の長さ
+    const double beta_min = 0.42;  // 最小逆温度
+    const double beta_max = 0.46;  // 最大逆温度
     const int beta_num = 20;       // betaの分割数
     
-    const int n_warmup = 2000;     // 焼きなましステップ数
-    const int n_measure = 2000;   // 測定ステップ数
+    const int n_warmup = 5000;     // 焼きなましステップ数
+    const int n_measure = 1000000;   // 測定ステップ数
     
     const uint32_t seed = 12345;   // 乱数シード
 };
@@ -122,7 +122,7 @@ int main() {
         }
 
         double abs_m = sum_abs_m / conf.n_measure;
-        double m2_imp = sum_s / (conf.n_measure * total_sites);
+        double m2_imp = sum_s / ((double)conf.n_measure * total_sites);
         double m4_naive = sum_m4 / conf.n_measure;
         double binder = m4_naive / (m2_imp * m2_imp);
 

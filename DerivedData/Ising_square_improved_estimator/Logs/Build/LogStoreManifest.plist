@@ -90,6 +90,48 @@
 			<key>uniqueIdentifier</key>
 			<string>4DF2BA89-1044-4435-BA4D-D856C6FAF718</string>
 		</dict>
+		<key>7445AB31-A875-4EE3-9C57-99C2B595D61E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7445AB31-A875-4EE3-9C57-99C2B595D61E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Ising_square_improved_estimator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Ising_square_improved_estimator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Ising_square_improved_estimator</string>
+			<key>timeStartedRecording</key>
+			<real>790197945.89138901</real>
+			<key>timeStoppedRecording</key>
+			<real>790197947.71528697</real>
+			<key>title</key>
+			<string>Build Ising_square_improved_estimator</string>
+			<key>uniqueIdentifier</key>
+			<string>7445AB31-A875-4EE3-9C57-99C2B595D61E</string>
+		</dict>
 		<key>7BABEC7F-137A-43E7-9A54-91F47D6C5F97</key>
 		<dict>
 			<key>className</key>
